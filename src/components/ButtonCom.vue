@@ -2,8 +2,8 @@
 import { defineProps } from 'vue'
 
 const variants = {
-  primary: 'bg-blue-500 text-white hover:bg-blue-600',
-  secondary: 'bg-gray-300 text-black hover:bg-gray-400',
+  primary: 'bg-blue-500 text-white hover:bg-blue-600 p-2',
+  secondary: 'bg-gray-300 text-black hover:bg-gray-400 p-2',
 }
 
 function getVariantClass(variant) {
@@ -20,6 +20,6 @@ const props = defineProps({
 
 <template>
   <button :class="getVariantClass(props.variant)">
-    <slot></slot>
+  <p>hej</p>
   </button>
 </template>
