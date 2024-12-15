@@ -16,9 +16,7 @@ import CardCom from "./components/CardCom.vue";
     </div>
   </header>
 
-  <section>
-    <CardCom variant="productSmall" />
-  </section>
+
 
   <RouterView />
 </template>

@@ -1,9 +1,16 @@
 <script setup>
 import ButtonCom from '@/components/ButtonCom.vue'
+import CardCom from '@/components/CardCom.vue';
 </script>
 
 <template>
-  <h1>home</h1>
-  <ButtonCom variant="primary">Click me</ButtonCom>
-  <ButtonCom variant="secondary">Click me</ButtonCom>
+  <!-- <ButtonCom variant="primary">Click me</ButtonCom>
+  <ButtonCom variant="secondary">Click me</ButtonCom> -->
+
+<cardsection class="grid grid-cols-4">
+  <CardCom variant="productSmall" image="public/images/udstoppetugle.png" titel="Udstoppet Ugle" price="1.900"/>
+  <CardCom variant="productSmall" image="public/images/udstoppetand.png" titel="Udstoppet And" price="500"></CardCom>
+  <CardCom variant="productSmall" image="public/images/udstoppethjort.png" titel="Udstoppet Hjort" price="3.400"></CardCom>
+  <CardCom variant="productSmall" image="public/images/udstoppetræv.png" titel="Udstoppet Ræv" price="4.000"></CardCom>
+</cardsection>
 </template>

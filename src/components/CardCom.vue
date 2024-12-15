@@ -17,17 +17,29 @@ const props = defineProps({
   variant: {
     type: String,
     default: 'productSmall'
+  },
+  image: {
+    type: String, 
+    required: true
+  },
+  titel: {
+    type: String,
+    required: true
+  },
+  price: {
+    type: Number, 
+    required: true, 
   }
 })
 </script>
 
 <template>
 
-    <div :class="getVariantClass(props.variant)">
+    <div :class="getVariantClass(variant)">
         <div class="relative h-[200px] w-fit">
-        <ImageCom image="../public/images/udstoppetugle.png" variant="imageProduct" />
-        <p class="text-white relative">Udstoppet ugle</p>
-        <p class="text-contrast relative">1.900 DKK</p>
+        <ImageCom :image="image" variant="imageProduct" />
+        <p class="text-white relative p-2">{{titel}}</p>
+        <p class="text-contrast relative p-2 text-right">{{price}} DKK</p>
     </div>
 </div>
     
