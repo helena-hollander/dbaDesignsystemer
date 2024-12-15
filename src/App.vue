@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import CardCom from "./components/CardCom.vue";
 
 </script>
 
@@ -14,6 +15,10 @@ import { RouterLink, RouterView } from 'vue-router'
       </nav>
     </div>
   </header>
+
+  <section>
+    <CardCom variant="productSmall" />
+  </section>
 
   <RouterView />
 </template>
