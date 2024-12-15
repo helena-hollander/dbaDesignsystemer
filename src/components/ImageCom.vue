@@ -2,7 +2,7 @@
 import { defineProps } from 'vue'
 
 const variants = {
-    imageProduct: 'rounded p-[2px] object-cover w-[300px] h-[220px] relative',
+    imageProduct: 'rounded p-[2px] object-cover w-full h-full',
     imageDisplay: 'object-cover',
 }
 

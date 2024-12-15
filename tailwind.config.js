@@ -11,7 +11,12 @@ export default {
       white: "#FDFFF5",
       contrast: "#FB437A",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        titelDisplay: ["Titel-Display", "obliqe"],
+        priceDisplay: ["Price-Display", "sans-serif"],
+      }
+    },
   },
   plugins: [],
 }

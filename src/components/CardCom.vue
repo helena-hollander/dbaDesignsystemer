@@ -9,14 +9,28 @@ const variants = {
   productVertical: 'bg-primarydark text-white w-[300px] h-[637px] rounded',
 }
 
+const imageVariants = {
+    imageSmall: 'relative h-[200px] w-full',
+    imageHorizontal: 'relative h-[200px] w-full',
+    imageVertical: 'relative h-[500px] w-full',
+}
+
 function getVariantClass(variant) {
   return variants[variant] || ''
+}
+
+function getImageVariantClass(imagevariant) {
+    return imageVariants[imagevariant] || ''
 }
 
 const props = defineProps({
   variant: {
     type: String,
     default: 'productSmall'
+  },
+  imagevariant: {
+    type: String,
+    default: 'imageSmall'
   },
   image: {
     type: String, 
@@ -36,10 +50,10 @@ const props = defineProps({
 <template>
 
     <div :class="getVariantClass(variant)">
-        <div class="relative h-[200px] w-fit">
+        <div :class="getImageVariantClass(imagevariant)">
         <ImageCom :image="image" variant="imageProduct" />
-        <p class="text-white relative p-2">{{titel}}</p>
-        <p class="text-contrast relative p-2 text-right">{{price}} DKK</p>
+        <p class="text-white relative p-1 font-titelDisplay text-xl">{{titel}}</p>
+        <p class="text-contrast relative p-2 text-right font-priceDisplay text-2xl">{{price}} DKK</p>
     </div>
 </div>
     
