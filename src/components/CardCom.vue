@@ -5,7 +5,7 @@ import ImageCom from './ImageCom.vue';
 
 const variants = {
   productSmall: 'bg-primarydark text-white w-[300px] h-[300px] rounded hover:bg-primarymid',
-  productHorizontal: 'bg-primarydark text-white w-[630px] h-[300px] rounded',
+  productHorizontal: 'bg-primarydark text-white w-[630px] h-[300px] rounded hover:bg-primarymid',
   productVertical: 'bg-primarydark text-white w-[300px] h-[637px] rounded',
 }
 
