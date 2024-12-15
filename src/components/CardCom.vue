@@ -5,14 +5,14 @@ import ImageCom from './ImageCom.vue';
 
 const variants = {
   productSmall: 'bg-primarydark text-white w-[300px] h-[300px] rounded hover:bg-primarymid',
-  productHorizontal: 'bg-primarydark text-white w-[630px] h-[300px] rounded hover:bg-primarymid',
-  productVertical: 'bg-primarydark text-white w-[300px] h-[637px] rounded',
+  productHorizontal: 'bg-primarydark text-white w-[630px] h-[300px] rounded hover:bg-primarymid col-span-2',
+  productVertical: 'bg-primarydark text-white w-[300px] h-[637px] rounded hover:bg-primarymid row-span-2',
 }
 
 const imageVariants = {
-    imageSmall: 'relative h-[200px] w-full',
-    imageHorizontal: 'relative h-[200px] w-full',
-    imageVertical: 'relative h-[500px] w-full',
+    imageSmall: 'relative h-[220px] w-full',
+    imageHorizontal: 'relative h-[220px] w-full',
+    imageVertical: 'relative h-[557px] w-full',
 }
 
 function getVariantClass(variant) {
@@ -49,8 +49,8 @@ const props = defineProps({
 
 <template>
 
-    <div :class="getVariantClass(variant)">
-        <div :class="getImageVariantClass(imagevariant)">
+ <div :class="getVariantClass(variant)">
+    <div :class="getImageVariantClass(imagevariant)">
         <ImageCom :image="image" variant="imageProduct" />
         <p class="text-white relative p-1 font-titelDisplay text-xl">{{titel}}</p>
         <p class="text-contrast relative p-2 text-right font-priceDisplay text-2xl">{{price}} DKK</p>

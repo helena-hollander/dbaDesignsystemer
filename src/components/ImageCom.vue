@@ -23,7 +23,7 @@ const props = defineProps({
 </script>
 
 <template>
-<div >
+<div class="object-cover w-full h-full">
    <img :src="image" :class="getVariantClass(variant)" alt="image">
 </div>
 </template>

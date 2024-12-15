@@ -7,10 +7,23 @@ import CardCom from '@/components/CardCom.vue';
   <!-- <ButtonCom variant="primary">Click me</ButtonCom>
   <ButtonCom variant="secondary">Click me</ButtonCom> -->
 
-<cardsection class="grid grid-cols-4">
+<cardsection>
+  <div class="grid grid-cols-4 grid-flow-row-dense gap-4">
   <CardCom variant="productVertical" image="public/images/udstoppetugle.png" imagevariant="imageVertical" titel="Udstoppet Ugle" price="1.900"/>
-  <CardCom variant="productSmall" image="public/images/udstoppetand.png" titel="Udstoppet And" price="500"></CardCom>
+  <CardCom variant="productHorizontal" image="public/images/udstoppetand.png" imagevariant="imageHorizontal" titel="Udstoppet And" price="500"></CardCom>
   <CardCom variant="productSmall" image="public/images/udstoppethjort.png" titel="Udstoppet Hjort" price="3.400"></CardCom>
   <CardCom variant="productSmall" image="public/images/udstoppetræv.png" titel="Udstoppet Ræv" price="4.000"></CardCom>
+ <!-- Ekstra herunder-->
+  <CardCom variant="productVertical" image="public/images/udstoppetugle.png" imagevariant="imageVertical" titel="Udstoppet Ugle" price="1.900"/>
+  <CardCom variant="productHorizontal" image="public/images/udstoppetand.png" imagevariant="imageHorizontal" titel="Udstoppet And" price="500"></CardCom>
+  <CardCom variant="productSmall" image="public/images/udstoppetræv.png" titel="Udstoppet Ræv" price="4.000"></CardCom>
+  <CardCom variant="productVertical" image="public/images/udstoppetugle.png" imagevariant="imageVertical" titel="Udstoppet Ugle" price="1.900"/>
+  <CardCom variant="productSmall" image="public/images/udstoppethjort.png" titel="Udstoppet Hjort" price="3.400"></CardCom>
+  <CardCom variant="productSmall" image="public/images/udstoppethjort.png" titel="Udstoppet Hjort" price="3.400"></CardCom>
+  <CardCom variant="productSmall" image="public/images/udstoppetræv.png" titel="Udstoppet Ræv" price="4.000"></CardCom>
+  <CardCom variant="productHorizontal" image="public/images/udstoppetand.png" imagevariant="imageHorizontal" titel="Udstoppet And" price="500"></CardCom>
+
+
+</div>
 </cardsection>
 </template>
