@@ -2,7 +2,7 @@
 import { defineProps } from 'vue'
 
 const variants = {
-    imageProduct: 'rounded p-[2px] object-cover w-full h-full',
+    imageProduct: 'rounded p-[2px] object-cover w-full h-full hover:scale-125 hover:object-cover',
     imageDisplay: 'object-cover',
 }
 

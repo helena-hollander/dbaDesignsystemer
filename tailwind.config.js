@@ -15,6 +15,7 @@ export default {
       fontFamily: {
         titelDisplay: ["Titel-Display", "obliqe"],
         priceDisplay: ["Price-Display", "sans-serif"],
+        buttonPrimary: ["Button-Primary", "sans-serif"],
       }
     },
   },

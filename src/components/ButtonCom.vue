@@ -2,8 +2,9 @@
 import { defineProps } from 'vue'
 
 const variants = {
-  primary: 'bg-blue-500 text-white hover:bg-blue-600 p-2',
+  primary: 'bg-primarydark border-2 border-primarydark text-white font-buttonPrimary hover:bg-white hover:text-primarydark hover:border-2 hover:border-primarydark p-2 rounded h-[40px] active:bg-primarymid',
   secondary: 'bg-gray-300 text-black hover:bg-gray-400 p-2',
+  ghost: 'text-primarydark font-buttonPrimary hover:text-contrast active:underline',
 }
 
 function getVariantClass(variant) {
@@ -14,12 +15,16 @@ const props = defineProps({
   variant: {
     type: String,
     default: 'primary'
+  },
+  text: {
+    type: String,
+    default: 'text'
   }
 })
 </script>
 
 <template>
   <button :class="getVariantClass(props.variant)">
-  <p>hej</p>
+  <p class="px-[10px]">{{ text }}</p>
   </button>
 </template>

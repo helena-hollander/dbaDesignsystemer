@@ -15,6 +15,7 @@ const router = createRouter({
       name: 'about',
       component: AboutView,
     },
+    
   ],
 })
 

@@ -4,15 +4,15 @@ import ImageCom from './ImageCom.vue';
 
 
 const variants = {
-  productSmall: 'bg-primarydark text-white w-[300px] h-[300px] rounded hover:bg-primarymid',
-  productHorizontal: 'bg-primarydark text-white w-[630px] h-[300px] rounded hover:bg-primarymid col-span-2',
-  productVertical: 'bg-primarydark text-white w-[300px] h-[637px] rounded hover:bg-primarymid row-span-2',
+  productSmall: 'bg-primarydark text-white w-full h-[300px] rounded hover:bg-primarymid',
+  productHorizontal: 'bg-primarydark text-white w-full h-[300px] rounded hover:bg-primarymid col-span-2',
+  productVertical: 'bg-primarydark text-white w-full h-[616px] rounded hover:bg-primarymid row-span-2',
 }
 
 const imageVariants = {
     imageSmall: 'relative h-[220px] w-full',
     imageHorizontal: 'relative h-[220px] w-full',
-    imageVertical: 'relative h-[557px] w-full',
+    imageVertical: 'relative h-[536px] w-full',
 }
 
 function getVariantClass(variant) {
