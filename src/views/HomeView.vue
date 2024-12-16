@@ -1,13 +1,30 @@
 <script setup>
 import ButtonCom from '@/components/ButtonCom.vue'
 import CardCom from '@/components/CardCom.vue';
+import CategoryCom from '@/components/CategoryCom.vue';
 </script>
 
 <template>
   <!-- <ButtonCom variant="primary">Click me</ButtonCom>
   <ButtonCom variant="secondary">Click me</ButtonCom> -->
 
-
+<categories class="grid w-[20vw]">
+  <div class="absolute translate-y-[-80px] mt-[10px] border-y-2 border-r-2 border-primarymid rounded-r pl-[20px] w-full">
+    <h2 class="my-[10px]">KATEGORIER</h2>
+    <CategoryCom text="Biler" icon="car"></CategoryCom>
+    <CategoryCom text="Både" icon="car"></CategoryCom>
+    <CategoryCom text="Cykler" icon="car"></CategoryCom>
+    <CategoryCom text="Haveudstyr" icon="car"></CategoryCom>
+    <CategoryCom text="Sport" icon="car"></CategoryCom>
+    <CategoryCom text="Børn" icon="car"></CategoryCom>
+    <CategoryCom text="Computer" icon="car"></CategoryCom>
+    <CategoryCom text="Mobil" icon="car"></CategoryCom>
+    <CategoryCom text="TV" icon="car"></CategoryCom>
+    <CategoryCom text="Dyr" icon="car"></CategoryCom>
+    <CategoryCom text="Hobby" icon="car"></CategoryCom>
+    <CategoryCom text="Musik" icon="car"></CategoryCom>
+  </div>
+</categories>
 <cardsection>
   <div class="justify-self-end mr-[20px] overflow-hidden p-[2px]">
   <div class="grid grid-cols-4 grid-flow-row-dense gap-4 w-[80vw] relative">
