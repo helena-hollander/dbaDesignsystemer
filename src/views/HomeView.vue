@@ -9,7 +9,7 @@ import CardCom from '@/components/CardCom.vue';
 
 
 <cardsection>
-  <div class="justify-self-end mr-[20px] overflow-hidden">
+  <div class="justify-self-end mr-[20px] overflow-hidden p-[2px]">
   <div class="grid grid-cols-4 grid-flow-row-dense gap-4 w-[80vw] relative">
   <CardCom variant="productVertical" image="public/images/udstoppetugle.png" imagevariant="imageVertical" titel="Udstoppet Ugle" price="1.900"/>
   <CardCom variant="productHorizontal" image="public/images/udstoppetand.png" imagevariant="imageHorizontal" titel="Udstoppet And" price="500"></CardCom>

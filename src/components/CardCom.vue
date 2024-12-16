@@ -4,15 +4,15 @@ import ImageCom from './ImageCom.vue';
 
 
 const variants = {
-  productSmall: 'bg-primarydark text-white w-full h-[300px] rounded hover:bg-primarymid',
-  productHorizontal: 'bg-primarydark text-white w-full h-[300px] rounded hover:bg-primarymid col-span-2',
-  productVertical: 'bg-primarydark text-white w-full h-[616px] rounded hover:bg-primarymid row-span-2',
+  productSmall: 'bg-primarydark text-white ring-2 ring-primarydark w-full h-[300px] rounded active:bg-primarymid active:ring-primarymid',
+  productHorizontal: 'bg-primarydark text-white ring-2 ring-primarydark w-full h-[300px] rounded  col-span-2 active:bg-primarymid active:ring-primarymid',
+  productVertical: 'bg-primarydark text-white ring-2 ring-primarydark w-full h-[616px] rounded  row-span-2 active:bg-primarymid active:ring-primarymid',
 }
 
 const imageVariants = {
-    imageSmall: 'relative h-[220px] w-full',
-    imageHorizontal: 'relative h-[220px] w-full',
-    imageVertical: 'relative h-[536px] w-full',
+    imageSmall: 'relative h-[220px] w-full overflow-hidden',
+    imageHorizontal: 'relative h-[220px] w-full overflow-hidden',
+    imageVertical: 'relative h-[536px] w-full overflow-hidden',
 }
 
 function getVariantClass(variant) {
@@ -49,11 +49,13 @@ const props = defineProps({
 
 <template>
 
- <div :class="getVariantClass(variant)">
+ <div :class="getVariantClass(variant) + ' group'">
     <div :class="getImageVariantClass(imagevariant)">
         <ImageCom :image="image" variant="imageProduct" />
-        <p class="text-white relative p-1 font-titelDisplay text-xl">{{titel}}</p>
-        <p class="text-contrast relative p-2 text-right font-priceDisplay text-2xl">{{price}} DKK</p>
+    </div>
+    <div class="p-2">
+        <p class="text-white relative font-titelDisplay text-xl">{{titel}}</p>
+        <p class="text-contrast relative text-right font-priceDisplay text-2xl">{{price}} DKK</p>
     </div>
 </div>
     
