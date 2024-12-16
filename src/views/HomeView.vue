@@ -8,8 +8,8 @@ import CategoryCom from '@/components/CategoryCom.vue';
   <!-- <ButtonCom variant="primary">Click me</ButtonCom>
   <ButtonCom variant="secondary">Click me</ButtonCom> -->
 
-<categories class="grid w-[20vw]">
-  <div class="absolute translate-y-[-80px] mt-[10px] border-y-2 border-r-2 border-primarymid rounded-r pl-[20px] w-full">
+<categories class="">
+  <div class="absolute grid w-[16vw] translate-y-[-80px] mt-[10px] mr-[20px] border-y-2 border-r-2 border-primarymid rounded-r pl-[20px]">
     <h2 class="my-[10px]">KATEGORIER</h2>
     <CategoryCom text="Biler" icon="car"></CategoryCom>
     <CategoryCom text="Både" icon="car"></CategoryCom>
