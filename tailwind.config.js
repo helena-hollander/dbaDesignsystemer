@@ -7,7 +7,7 @@ export default {
   theme: {
     colors: {
       primarydark:"#001D91",
-      primarymid:"#3758DD",
+      primarymid:"#5D7CF5",
       white: "#FDFFF5",
       contrast: "#FB437A",
     },
