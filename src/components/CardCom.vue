@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink, RouterView } from 'vue-router';
 import { defineProps } from 'vue'
 import ImageCom from './ImageCom.vue';
 
@@ -49,7 +50,7 @@ const props = defineProps({
 
 <template>
 
- <div :class="getVariantClass(variant) + ' group'">
+<RouterLink to="/product" :class="getVariantClass(variant) + ' group'">
     <div :class="getImageVariantClass(imagevariant)">
         <ImageCom :image="image" variant="imageProduct" />
     </div>
@@ -57,8 +58,7 @@ const props = defineProps({
         <p class="text-white relative font-titelDisplay text-xl">{{titel}}</p>
         <p class="text-contrast relative text-right font-priceDisplay text-2xl">{{price}} DKK</p>
     </div>
-</div>
-    
+</RouterLink>
 
 
 

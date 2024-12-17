@@ -16,6 +16,7 @@ export default {
         titelDisplay: ["Titel-Display", "obliqe"],
         priceDisplay: ["Price-Display", "sans-serif"],
         buttonPrimary: ["Button-Primary", "sans-serif"],
+        titelSecondary: ["Titel-Secondary", "sans-serif"],
       }
     },
   },
