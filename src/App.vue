@@ -9,11 +9,7 @@ import ButtonCom from './components/ButtonCom.vue';
   <header>
     <div class="wrapper bg-primarymid w-full h-[180px] content-end">
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        
-      </nav>
+      
      <div class="justify-self-end self-end">
       <nav class="grid grid-cols-3 w-[30vw] h-full justify-items-center py-2 items-center">
         <ButtonCom variant="ghost" text="DBA Guide"/>

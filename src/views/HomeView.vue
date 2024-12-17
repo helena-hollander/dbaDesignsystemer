@@ -8,10 +8,10 @@ import CategoryCom from '@/components/CategoryCom.vue';
 <template>
   <!-- <ButtonCom variant="primary">Click me</ButtonCom>
   <ButtonCom variant="secondary">Click me</ButtonCom> -->
-
-<categories class="">
-  <div class="absolute grid w-[16vw] translate-y-[-80px] mt-[10px] mr-[20px] border-y-2 border-r-2 border-primarymid rounded-r pl-[20px]">
-    <h2 class="my-[10px] text-contrast font-titelSecondary text-3xl">KATEGORIER</h2>
+  <categories class="categorybox absolute">
+   
+    <h2 class="mb-[10px] ml-[20px] text-contrast font-titelSecondary text-3xl translate-y-[-70px]">KATEGORIER</h2>
+  <div class="text-xl translate-y-[-46px] grid gap-1 w-full mt-[10px] mr-4 border-y-2 border-r-2 border-primarymid rounded-r pl-[20px] py-3">
     <CategoryCom text="Biler" icon="car"></CategoryCom>
     <CategoryCom text="Både" icon="car"></CategoryCom>
     <CategoryCom text="Cykler" icon="car"></CategoryCom>
@@ -24,8 +24,10 @@ import CategoryCom from '@/components/CategoryCom.vue';
     <CategoryCom text="Dyr" icon="car"></CategoryCom>
     <CategoryCom text="Hobby" icon="car"></CategoryCom>
     <CategoryCom text="Musik" icon="car"></CategoryCom>
+
   </div>
 </categories>
+
 <cardsection>
   <div class="justify-self-end mr-[20px] overflow-hidden p-[2px]">
   <div class="grid grid-cols-4 grid-flow-row-dense gap-4 w-[80vw] relative">
@@ -51,3 +53,9 @@ import CategoryCom from '@/components/CategoryCom.vue';
 </div>
 </cardsection>
 </template>
+
+<style>
+.categorybox {
+  width: calc(20% - 36px);
+}
+</style>
