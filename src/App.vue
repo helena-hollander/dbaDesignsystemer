@@ -19,10 +19,10 @@ import ButtonCom from './components/ButtonCom.vue';
      </div>
     </div>
     <div class="justify-self-end">
-    <searchbar class="grid grid-cols-8 justify-items-end items-center w-[50vw] left-0 my-[20px]">
-    <div class="bg-white col-span-4 col-end-8 border-primarymid border-2 rounded w-full h-[40px] relative mr-[20px] justify-self-end">
+    <searchbar class="grid grid-cols-10 justify-items-end items-center w-[60vw] left-0 my-[20px]">
+    <div class="bg-white col-span-5 col-end-10 border-primarymid border-2 rounded w-full h-[40px] relative mr-[20px] justify-self-end">
     </div>
-    <ButtonCom variant="primary" text="SØG" class="my-[10px] col-start-8 mr-[20px]"></ButtonCom>
+    <ButtonCom variant="primary" text="SØG" class="my-[10px] col-start-10 mr-[20px]"></ButtonCom>
     </searchbar>
   </div>
   </header>
