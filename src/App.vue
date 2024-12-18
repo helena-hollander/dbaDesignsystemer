@@ -9,7 +9,7 @@ import ButtonCom from './components/ButtonCom.vue';
     <div class="logo absolute font-regular text-white leading-none translate-y-[-32px] translate-x-[-80px] ml-[140px]">DBA</div>
     <div class="wrapper bg-primarymid w-full h-[180px] content-end">    
     <div class="justify-self-end self-end translate-y-[-56px] mr-[20px]">
-      <ButtonCom variant="secondary" text="Log ing" class="my-[10px] ml-[20px] text-xl leading-none"></ButtonCom>
+      <ButtonCom variant="secondary" text="Log ind" class="my-[10px] ml-[20px] text-xl leading-none"></ButtonCom>
       <ButtonCom variant="secondary" text="Opret annonce" class="my-[10px] ml-[20px] text-xl leading-none"></ButtonCom>
     </div>  
      <div class="justify-self-end self-end">
