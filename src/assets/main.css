@@ -1,26 +1,26 @@
 @font-face{
     font-family: 'Titel-Display';
-    src: url('public/fonts/Causten-MediumOblique.otf') format('truetype');
+    src: url('/fonts/Causten-MediumOblique.otf') format('truetype');
 }
 @font-face{
     font-family:'Price-Display';
-    src: url('public/fonts/Causten-Bold.otf') format('truetype');
+    src: url('/fonts/Causten-Bold.otf') format('truetype');
 }
 @font-face{
     font-family:'Button-Primary';
-    src: url('public/fonts/Causten-ExtraBold.otf') format('truetype');
+    src: url('/fonts/Causten-ExtraBold.otf') format('truetype');
 }
 @font-face{
     font-family:'Titel-Secondary';
-    src: url('public/fonts/Causten-BoldOblique.otf') format('truetype');
+    src: url('/fonts/Causten-BoldOblique.otf') format('truetype');
 }
 @font-face{
     font-family:'Regular-Oblique';
-    src: url('public/fonts/Causten-RegularOblique.otf') format('truetype');
+    src: url('/fonts/Causten-RegularOblique.otf') format('truetype');
 }
 @font-face{
     font-family:'Regular';
-    src: url('public/fonts/Causten-Regular.otf') format('truetype');
+    src: url('/fonts/Causten-Regular.otf') format('truetype');
 }
 
 @tailwind base;

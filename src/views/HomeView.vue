@@ -32,20 +32,20 @@ import CategoryCom from '@/components/CategoryCom.vue';
 <cardsection>
   <div class="justify-self-end mr-[20px] overflow-hidden p-[2px]">
   <div class="grid grid-cols-4 grid-flow-row-dense gap-4 w-[80vw] relative">
-  <CardCom variant="productVertical" image="public/images/udstoppetugle.png" imagevariant="imageVertical" titel="Udstoppet Ugle" price="1.900"/>
-  <CardCom variant="productHorizontal" image="public/images/egern1.png" imagevariant="imageHorizontal" titel="Udstoppet Egern" price="500"></CardCom>
-  <CardCom variant="productSmall" image="public/images/udstoppethjort.png" titel="Udstoppet Hjort" price="3.400"></CardCom>
-  <CardCom variant="productSmall" image="public/images/udstoppetræv.png" titel="Udstoppet Ræv" price="4.000"></CardCom>
+  <CardCom variant="productVertical" image="/images/udstoppetugle.png" imagevariant="imageVertical" titel="Udstoppet Ugle" price="1.900"/>
+  <CardCom variant="productHorizontal" image="/images/egern1.png" imagevariant="imageHorizontal" titel="Udstoppet Egern" price="500"></CardCom>
+  <CardCom variant="productSmall" image="/images/udstoppethjort.png" titel="Udstoppet Hjort" price="3.400"></CardCom>
+  <CardCom variant="productSmall" image="/images/udstoppetræv.png" titel="Udstoppet Ræv" price="4.000"></CardCom>
  <!-- Ekstra herunder-->
-  <CardCom variant="productVertical" image="public/images/udstoppetugle2.png" imagevariant="imageVertical" titel="Udstoppet Ugle" price="1.900"/>
-  <CardCom variant="productHorizontal" image="public/images/udstoppetmuldvarp.png" imagevariant="imageHorizontal" titel="Udstoppet Muldvarp" price="500"></CardCom>
-  <CardCom variant="productSmall" image="public/images/glofugl.png" titel="Udstoppet fugl" price="4.000"></CardCom>
-  <CardCom variant="productSmall" image="public/images/udstoppethjort.png" titel="Udstoppet Hjort" price="3.400"></CardCom>
-  <CardCom variant="productVertical" image="public/images/fasan.png" imagevariant="imageVertical" titel="Fasan m.fl." price="1.900"/>
-  <CardCom variant="productSmall" image="public/images/samledefritter.png" titel="Samling Fritter" price="3.400"></CardCom>
-  <CardCom variant="productSmall" image="public/images/fuglesamling.png" titel="Udstoppet Fuglesamling" price="4.000"></CardCom>
-  <CardCom variant="productHorizontal" image="public/images/kronhjort.png" imagevariant="imageHorizontal" titel="Udstoppet Kronhjort" price="500"></CardCom>
-  <CardCom variant="productSmall" image="public/images/udstoppetand.png" titel="Udstoppet And" price="4.000"></CardCom>
+  <CardCom variant="productVertical" image="/images/udstoppetugle2.png" imagevariant="imageVertical" titel="Udstoppet Ugle" price="1.900"/>
+  <CardCom variant="productHorizontal" image="/images/udstoppetmuldvarp.png" imagevariant="imageHorizontal" titel="Udstoppet Muldvarp" price="500"></CardCom>
+  <CardCom variant="productSmall" image="/images/glofugl.png" titel="Udstoppet fugl" price="4.000"></CardCom>
+  <CardCom variant="productSmall" image="/images/udstoppethjort.png" titel="Udstoppet Hjort" price="3.400"></CardCom>
+  <CardCom variant="productVertical" image="/images/fasan.png" imagevariant="imageVertical" titel="Fasan m.fl." price="1.900"/>
+  <CardCom variant="productSmall" image="/images/samledefritter.png" titel="Samling Fritter" price="3.400"></CardCom>
+  <CardCom variant="productSmall" image="/images/fuglesamling.png" titel="Udstoppet Fuglesamling" price="4.000"></CardCom>
+  <CardCom variant="productHorizontal" image="/images/kronhjort.png" imagevariant="imageHorizontal" titel="Udstoppet Kronhjort" price="500"></CardCom>
+  <CardCom variant="productSmall" image="/images/udstoppetand.png" titel="Udstoppet And" price="4.000"></CardCom>
 
 </div>
 </div>
