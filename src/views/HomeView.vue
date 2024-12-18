@@ -13,17 +13,17 @@ import CategoryCom from '@/components/CategoryCom.vue';
     <h2 class="mb-[10px] ml-[20px] text-contrast font-titelSecondary text-3xl translate-y-[-70px]">KATEGORIER</h2>
   <div class="text-xl translate-y-[-46px] grid gap-1 w-full mt-[10px] mr-4 border-y-2 border-r-2 border-primarymid rounded-r pl-[20px] py-3">
     <CategoryCom text="Biler" icon="car"></CategoryCom>
-    <CategoryCom text="Både" icon="car"></CategoryCom>
-    <CategoryCom text="Cykler" icon="car"></CategoryCom>
-    <CategoryCom text="Haveudstyr" icon="car"></CategoryCom>
-    <CategoryCom text="Sport" icon="car"></CategoryCom>
-    <CategoryCom text="Børn" icon="car"></CategoryCom>
-    <CategoryCom text="Computer" icon="car"></CategoryCom>
-    <CategoryCom text="Mobil" icon="car"></CategoryCom>
-    <CategoryCom text="TV" icon="car"></CategoryCom>
-    <CategoryCom text="Dyr" icon="car"></CategoryCom>
-    <CategoryCom text="Hobby" icon="car"></CategoryCom>
-    <CategoryCom text="Musik" icon="car"></CategoryCom>
+    <CategoryCom text="Både" icon="ship"></CategoryCom>
+    <CategoryCom text="Cykler" icon="bike"></CategoryCom>
+    <CategoryCom text="Haveudstyr" icon="shovel"></CategoryCom>
+    <CategoryCom text="Sport" icon="dumbbell"></CategoryCom>
+    <CategoryCom text="Børn" icon="baby"></CategoryCom>
+    <CategoryCom text="Computer" icon="computer"></CategoryCom>
+    <CategoryCom text="Mobil" icon="phone"></CategoryCom>
+    <CategoryCom text="TV" icon="tv"></CategoryCom>
+    <CategoryCom text="Dyr" icon="cat"></CategoryCom>
+    <CategoryCom text="Hobby" icon="brush"></CategoryCom>
+    <CategoryCom text="Musik" icon="music"></CategoryCom>
 
   </div>
 </categories>
