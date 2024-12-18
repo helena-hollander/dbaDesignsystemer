@@ -6,7 +6,7 @@ import { defineProps } from 'vue'
 </script>
 
 <template>
-<div class="flex bg-primarydark w-[754px] h-full rounded p-[2px] mx-[20px] h-[400px]">
+<div class="flex bg-primarydark w-full rounded p-[2px] mx-[20px] h-[400px]">
     <div class="w-[70%] h-full">
      <ImageCom image="public/images/udstoppetugle.png" variant="imageProduct" class="pr-[2px]"/>
     </div>
