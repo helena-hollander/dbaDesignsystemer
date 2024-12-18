@@ -17,3 +17,9 @@ export const Secondary = {
     label: 'Button',
   },
 };
+export const Ghost = {
+  args: {
+    variant: 'ghost',
+    label: 'Button',
+  },
+};
