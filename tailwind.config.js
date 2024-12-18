@@ -18,6 +18,7 @@ export default {
         buttonPrimary: ["Button-Primary", "sans-serif"],
         titelSecondary: ["Titel-Secondary", "sans-serif"],
         regularOblique: ["Regular-Oblique", "sans-serif"],
+        regular: ["Regular", "sans-serif"],
       }
     },
   },

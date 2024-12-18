@@ -2,6 +2,7 @@
 import GalleryCom from '@/components/GalleryCom.vue';
 import UserCardCom from '@/components/UserCardCom.vue';
 import MessageCom from '@/components/MessageCom.vue';
+import TextDescriptionCom from '@/components/TextDescriptionCom.vue';
 </script>
 
 <template>
@@ -9,5 +10,6 @@ import MessageCom from '@/components/MessageCom.vue';
      <div class="col-span-6 row-span-2"><GalleryCom></GalleryCom></div>
     <div class="col-span-4 mr-[40px]"><UserCardCom></UserCardCom></div>
     <div class="col-span-4 row-span-2 mr-[40px]"><MessageCom></MessageCom></div>
+    <div class="col-span-6 mx-[20px]"><TextDescriptionCom></TextDescriptionCom></div>
     </div>
 </template>

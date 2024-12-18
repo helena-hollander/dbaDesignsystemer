@@ -18,6 +18,10 @@
     font-family:'Regular-Oblique';
     src: url('public/fonts/Causten-RegularOblique.otf') format('truetype');
 }
+@font-face{
+    font-family:'Regular';
+    src: url('public/fonts/Causten-Regular.otf') format('truetype');
+}
 
 @tailwind base;
 @tailwind components;
